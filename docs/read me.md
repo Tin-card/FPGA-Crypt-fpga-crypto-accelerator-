@@ -1,6 +1,8 @@
 # FPGA Crypto Accelerator
 
-Synthesizable **SystemVerilog implementation of an AES-128 hardware accelerator**, with simulation, automated verification, and RTL synthesis analysis.
+A synthesizable **SystemVerilog implementation of an hardware accelerator**, starting with an AES-128 encryption core.
+
+
 
 ## Architecture
 
