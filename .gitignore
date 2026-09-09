@@ -1,0 +1,39 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Verilator
+obj_dir/
+verilator_*
+
+# Simulation
+*.vcd
+*.fst
+*.fst.hier
+*.log
+*.out
+
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+
+# Synthesis
+*.json
+*.dot
+*.blif
+*.edif
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
