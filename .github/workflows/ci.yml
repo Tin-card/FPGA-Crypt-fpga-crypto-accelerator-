@@ -1,4 +1,3 @@
-cat > .github/workflows/ci.yml <<'EOF'
 name: CI
 
 on:
@@ -32,4 +31,3 @@ jobs:
 
       - name: Run verification
         run: make test
-EOF
