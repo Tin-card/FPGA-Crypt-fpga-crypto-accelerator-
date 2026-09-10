@@ -1,12 +1,11 @@
+cat > .github/workflows/ci.yml <<'EOF'
 name: CI
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   pull_request:
-    branches:
-      - main
+    branches: [main]
 
 jobs:
   test:
@@ -19,12 +18,12 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: "3.12"
 
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          python -m pip install pytest cryptography
 
       - name: Install Verilator
         run: |
@@ -33,3 +32,4 @@ jobs:
 
       - name: Run verification
         run: make test
+EOF
