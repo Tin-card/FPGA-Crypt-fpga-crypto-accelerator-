@@ -295,3 +295,6 @@ Possible extensions include:
 
 This project is intended for educational and research purposes. 
 This project is licensed under the MIT License. See the LICENSE file for the full license text.
+
+## Additional/ Workflows
+[![CI](https://github.com/Tin-card/FPGA-Crypt-fpga-crypto-accelerator-/actions/workflows/ci.yml/badge.svg)](https://github.com/Tin-card/FPGA-Crypt-fpga-crypto-accelerator-/actions/workflows/ci.yml)
