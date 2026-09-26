@@ -171,7 +171,6 @@ synthesis/
 ```
 
 The synthesis report contains technology-independent Yosys statistics. These values should not be interpreted as FPGA LUT, timing, or maximum-frequency results for a specific FPGA device.
-
 FPGA-specific resource utilization and timing require synthesis and implementation for a particular FPGA architecture and device.
 
 ## Requirements
